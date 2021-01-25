@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body html {
+  width: 100%;
+}
+.top {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top .image {
+  padding: 20px 20px;
+  margin-left: 40px;
+}
+.top .wenzi {
+  padding: 10px 20px;
+  margin-right: 40px;
+  color: white;
+  background-color: #028ac6;
+  border-radius: 6px;
+}
+.zhuce {
+  position: relative;
+  width: 100%;
+}
+.zhuce .tupian img {
+  display: block;
+}
+.zhuce .login-item {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.zhuce .login-last {
+  width: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50px;
+  transform: translate(-50%);
+}
+.zhuce .login-last .number-login {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.zhuce .login-last .number-login .one {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 auto;
+  color: #025488;
+  font-size: 40px;
+  font-weight: 1000;
+  margin-bottom: 20px;
+}
+.zhuce .login-last .number-login .two {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.zhuce .login-last .number-login .two input {
+  padding: 15px 20px;
+  width: 98%;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+.zhuce .login-last .number-login .two select {
+  padding: 15px 20px;
+  width: 98%;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+.zhuce .login-last .number-login .xingbie {
+  width: 100%;
+  margin-bottom: 25px;
+}
+.zhuce .login-last .number-login .xingbie span {
+  padding-right: 10px;
+  color: #4b4a4a;
+}
+.zhuce .login-last .number-login .three {
+  width: 100%;
+  margin-bottom: 25px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.zhuce .login-last .number-login .three input {
+  padding: 15px 20px;
+  width: 99%;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+.zhuce .login-last .number-login .three button {
+  position: absolute;
+  right: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.zhuce .login-last .number-login .four {
+  width: 100%;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.zhuce .login-last .number-login .four input {
+  padding: 15px 20px;
+  width: 270px;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+}
+.zhuce .login-last .number-login .four span {
+  padding: 4px 4px;
+  color: black;
+  background: #caeefd;
+  display: inline-block;
+  width: 100px;
+  height: 34px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.zhuce .login-last .number-login .five {
+  width: 100%;
+  padding: 15px 0;
+  background-color: #0b6faf;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+.zhuce .login-last .number-login .six {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

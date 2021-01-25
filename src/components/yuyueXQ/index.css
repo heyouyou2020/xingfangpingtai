@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body html {
+  width: 100%;
+}
+.home {
+  width: 100%;
+  position: relative;
+}
+.home img {
+  display: block;
+  width: 100%;
+}
+.home .conten {
+  width: 70%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  padding-bottom: 100px;
+}
+.home .conten .login {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+.home .conten .login .left span {
+  padding: 10px 0;
+  color: white;
+  padding-right: 20px;
+}
+.home .conten .login .right span {
+  padding: 10px 20px;
+  color: white;
+  background: #4c97dd;
+  border-radius: 4px;
+  margin-left: 4px;
+}
+.home .conten .lvshi-image {
+  margin: 20px 0;
+}
+.home .conten .lvshi-image img {
+  width: 451px;
+  height: 75px;
+}
+.home .conten .show {
+  background-color: white;
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.home .conten .show .title-one {
+  width: 20%;
+  margin: 20px auto;
+  color: #125f8f;
+  text-align: center;
+  font-weight: 1000;
+  font-size: 30px;
+  padding-top: 30px;
+}
+.home .conten .show .top-item {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+}
+.home .conten .show .top-item .title-ite {
+  display: inline-block;
+  width: 4px;
+  height: 16px;
+  background: cornflowerblue;
+}
+.home .conten .show .top-item .title-item {
+  padding-left: 5px;
+  display: inline-block;
+  color: black;
+  font-weight: 800;
+}
+.home .conten .show .table-item {
+  width: 80%;
+  margin: 20px auto;
+}
+.home .conten .show .table-item .contenitem {
+  color: #4882bb;
+}
+.home .conten .show .table-item .titleitem {
+  color: #717375;
+}
+.home .conten .show .table-item table {
+  border: #a9c4df;
+}
+.home .conten .show .table-item table tr td {
+  text-align: center;
+}
+.home .conten .show .jiaoliu {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #f4f4f4;
+  height: 600px;
+  position: relative;
+}
+.home .conten .show .jiaoliu .kuang {
+  width: 90%;
+  margin: 20px auto;
+  background: #f4f4f4;
+  height: 300px;
+  list-style: none;
+  overflow-y: scroll;
+}
+.home .conten .show .jiaoliu .kuang li {
+  list-style: none;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed #7fabd4;
+  padding-bottom: 20px;
+}
+.home .conten .show .jiaoliu .kuang li .part-item {
+  margin-bottom: 10px;
+}
+.home .conten .show .jiaoliu .kuang li .part-item-logi {
+  margin-left: 30px;
+}
+.home .conten .show .jiaoliu .kuang li .name {
+  padding-right: 10px;
+  padding-bottom: 4px;
+  font-weight: 1000;
+}
+.home .conten .show .jiaoliu .kuang li .time {
+  padding-bottom: 4px;
+  color: #747474;
+}
+.home .conten .show .jiaoliu .kuang li .neirong {
+  padding-left: 20px;
+  word-wrap: break-word;
+  word-break: normal;
+  color: #4882d1;
+  text-indent: 20px;
+}
+.home .conten .show .jiaoliu .message-item {
+  width: 90%;
+  margin: 0 auto;
+}
+.home .conten .show .jiaoliu .message-item input {
+  width: 100%;
+  border: 1px solid #d4c6c6;
+  outline: none;
+  padding-bottom: 150px;
+  text-indent: 20px;
+}
+.home .conten .show .jiaoliu .but {
+  padding: 10px 30px;
+  color: white;
+  width: 40px;
+  background-color: #4f92df;
+  text-align: center;
+  border-radius: 6px;
+  float: right;
+  margin-top: 30px;
+  margin-right: 5%;
+}

@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body html {
+  width: 100%;
+}
+.home {
+  width: 100%;
+  position: relative;
+}
+.home img {
+  display: block;
+  width: 100%;
+}
+.home .conten {
+  width: 70%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  padding-bottom: 100px;
+}
+.home .conten .login {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+.home .conten .login .left span {
+  padding: 10px 0;
+  color: white;
+  padding-right: 20px;
+}
+.home .conten .login .right span {
+  padding: 10px 20px;
+  color: white;
+  background: #4c97dd;
+  border-radius: 4px;
+  margin-left: 4px;
+}
+.home .conten .lvshi-image {
+  margin: 20px 0;
+}
+.home .conten .lvshi-image img {
+  width: 451px;
+  height: 75px;
+}
+.home .conten .fangkuang {
+  display: flex;
+  align-items: center;
+  background-color: white;
+}
+.home .conten .fangkuang .one {
+  margin-right: 40px;
+}
+.home .conten .fangkuang .one img {
+  width: 300px;
+  height: 300px;
+}
+.home .conten .fangkuang .two {
+  width: 400px;
+  height: 230px;
+  background: #ccefff;
+  margin-right: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+}
+.home .conten .fangkuang .two img {
+  width: 360px;
+  height: 59px;
+}
+.home .conten .fangkuang .three {
+  width: 240px;
+  height: 240px;
+  background: #e5f4fd;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.home .conten .fangkuang .three img {
+  margin: auto;
+}
+.home .conten .fangkuang .three span {
+  padding: 10px 0;
+  border-bottom: 3px solid #27a9d6;
+  color: #27a9d6;
+  font-size: 20px;
+}
+.home .conten .anli {
+  width: 100%;
+  background-color: white;
+  border: 1px solid #eeeeee;
+  padding: 10px 0 40px;
+  margin-top: 40px;
+  box-shadow: 0px 0px 10px #888888;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.home .conten .anli .alltiem {
+  width: 30%;
+  margin-bottom: 20px;
+}
+.home .conten .anli .alltiem .top-item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0dcdc;
+}
+.home .conten .anli .alltiem .top-item .zhanshi {
+  padding: 10px 0px;
+  border-bottom: 2px solid #498adf;
+  font-size: 20px;
+  font-weight: 800;
+}
+.home .conten .anli .alltiem .top-item .more {
+  padding: 10px 20px;
+  color: #a1a0a0;
+}
+.home .conten .anli ul {
+  list-style: none;
+}
+.home .conten .anli ul li {
+  list-style: none;
+  color: black;
+  font-size: 16px;
+  padding: 6px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow: ellipsis;
+}

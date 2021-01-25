@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body html {
+  width: 100%;
+}
+.home {
+  width: 100%;
+  position: relative;
+}
+.home img {
+  display: block;
+  width: 100%;
+}
+.home .conten {
+  width: 70%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  padding-bottom: 100px;
+}
+.home .conten .login {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+.home .conten .login .left span {
+  padding: 10px 0;
+  color: white;
+  padding-right: 20px;
+}
+.home .conten .login .right span {
+  padding: 10px 20px;
+  color: white;
+  background: #4c97dd;
+  border-radius: 4px;
+  margin-left: 4px;
+}
+.home .conten .lvshi-image {
+  margin: 20px 0;
+}
+.home .conten .lvshi-image img {
+  width: 451px;
+  height: 75px;
+}
+.home .conten .show {
+  background-color: white;
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.home .conten .show .title-one {
+  width: 20%;
+  margin: 20px auto;
+  color: #125f8f;
+  text-align: center;
+  font-weight: 1000;
+  font-size: 30px;
+  padding-top: 30px;
+}
+.home .conten .show .message {
+  width: 80%;
+  margin: 20px auto;
+}
+.home .conten .show .message .one {
+  padding: 0;
+}
+.home .conten .show .message span {
+  padding-left: 10px;
+  color: #333333;
+  font-weight: 900;
+}
+.home .conten .show .message i {
+  color: #7d7d7d;
+}
+.home .conten .show .zixun-item {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+}
+.home .conten .show .zixun-item .one {
+  color: #333333;
+  font-weight: 900;
+  display: inline-block;
+  width: 10%;
+}
+.home .conten .show .zixun-item .two {
+  display: inline-block;
+  width: 90%;
+  word-break: break-all;
+  color: #333333;
+}

@@ -1,0 +1,26 @@
+.neirong {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.neirong .top {
+  font-weight: 1000;
+  font-size: 40px;
+  margin: 20px;
+}
+.neirong .time .left {
+  font: 800;
+  color: black;
+}
+.neirong .time .right {
+  color: #312f2f;
+}
+.neirong .conten {
+  text-indent: 30px;
+  width: 60%;
+  text-align: justify;
+  word-wrap: wrap;
+  word-break: break-all;
+  padding-top: 40px;
+}
